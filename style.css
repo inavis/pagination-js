@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.item{
+    border: 1px solid black;
+    color: rgb(69, 96, 214);
+    padding: 1%;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.item:hover{
+    /* background-color: rgb(161, 151, 151); */
+    color: black;
+    text-decoration: underline;
+    background-color: cadetblue;
+}
+
+.container{
+    margin-left: 27%;
+    margin-top: 5%;
+}
+#display{
+    margin-top: 5%;
+    margin-left: 20%;
+    background-color: cadetblue;
+    margin-right: 20%;
+    /* text-align: center; */
+    padding: 4%;
+    color: white;
+}
+#head{
+    text-align: center;
+}
+.data{
+    margin-left: 25%;
+    color: black;
+    margin-right: 25%;
+}
