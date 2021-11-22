@@ -343,7 +343,7 @@ function display(currentdata,currentpage){
     <div> 
         <div id="head"><h2>USER DATA </h2> </div>
         <br><br>
-        <div class="data"><b>ID :</b>  0  ${data[currentpage-1].id} </div>
+        <div class="data"><b>ID :</b>    ${data[currentpage-1].id} </div>
         <br><br>
         <div class="data"><b>NAME :</b> <br><br>   ${data[currentpage-1].name} </div>
         <br><br>
