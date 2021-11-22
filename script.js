@@ -35,11 +35,11 @@ div.innerHTML=`
 <div> 
     <div id="head"><h2>USER DATA </h2> </div>
     
-    <div class="data"><b>ID :</b>   ${sample.id} </div>
+    <div class="data"><b>ID :</b>  <br><br> ${sample.id} </div>
     <br><br>
-    <div class="data"><b>NAME :</b>   ${sample.name} </div>
+    <div class="data"><b>NAME :</b> <br><br>  ${sample.name} </div>
     <br><br>
-    <div class="data"><b>EMAILID :</b>   ${sample.email}  </div>
+    <div class="data"><b>EMAILID :</b>  <br><br> ${sample.email}  </div>
     <br><br>
 </div>
 `
@@ -343,11 +343,11 @@ function display(currentdata,currentpage){
     <div> 
         <div id="head"><h2>USER DATA </h2> </div>
         <br><br>
-        <div class="data"><b>ID :</b>    ${data[currentpage-1].id} </div>
+        <div class="data"><b>ID :</b>  0  ${data[currentpage-1].id} </div>
         <br><br>
-        <div class="data"><b>NAME :</b>    ${data[currentpage-1].name} </div>
+        <div class="data"><b>NAME :</b> <br><br>   ${data[currentpage-1].name} </div>
         <br><br>
-        <div class="data"><b>EMAILID :</b>    ${data[currentpage-1].email} </div>
+        <div class="data"><b>EMAILID :</b>  <br><br>  ${data[currentpage-1].email} </div>
         <br><br>
     </div>
     `
