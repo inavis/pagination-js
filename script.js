@@ -34,7 +34,7 @@ document.body.appendChild(div);
 div.innerHTML=`
 <div> 
     <div id="head"><h2>USER DATA </h2> </div>
-    
+    <br><br>
     <div class="data"><b>ID :</b>  <br><br> ${sample.id} </div>
     <br><br>
     <div class="data"><b>NAME :</b> <br><br>  ${sample.name} </div>
