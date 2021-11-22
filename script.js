@@ -33,14 +33,14 @@ div.setAttribute("id","display");
 document.body.appendChild(div);
 div.innerHTML=`
 <div> 
-    <div id="head"><h3>USER DATA: </h3> </div>
+    <div id="head"><h2>USER DATA </h2> </div>
     
     <div class="data"><b>ID :</b>   ${sample.id} </div>
-    <br>
+    <br><br>
     <div class="data"><b>NAME :</b>   ${sample.name} </div>
-    <br>
+    <br><br>
     <div class="data"><b>EMAILID :</b>   ${sample.email}  </div>
-    <br>
+    <br><br>
 </div>
 `
 
@@ -341,14 +341,14 @@ function display(currentdata,currentpage){
     console.log(currentpage,currentdata);
     div.innerHTML=`
     <div> 
-        <div id="head"><h3>USER DATA: </h3> </div>
-        
+        <div id="head"><h2>USER DATA </h2> </div>
+        <br><br>
         <div class="data"><b>ID :</b>    ${data[currentpage-1].id} </div>
-        <br>
+        <br><br>
         <div class="data"><b>NAME :</b>    ${data[currentpage-1].name} </div>
-        <br>
+        <br><br>
         <div class="data"><b>EMAILID :</b>    ${data[currentpage-1].email} </div>
-        <br>
+        <br><br>
     </div>
     `
     if(currentpage==document.getElementById("item5").innerHTML){
