@@ -42,8 +42,9 @@
         word-break: break-all;
     }
     .container{
-        margin-left: 23%;
+        margin-left: 15%;
         margin-top: 5%;
+        padding: 1%;
     }
 }
 @media (min-width:501px) and (max-width:1000px){
@@ -54,8 +55,9 @@
         word-break: break-all;
     }
     .container{
-        margin-left: 27%;
+        margin-left: 23%;
         margin-top: 5%;
+        padding: 1%;
     }
 }
 @media (min-width:1001px){
@@ -68,5 +70,6 @@
     .container{
         margin-left: 34%;
         margin-top: 5%;
+        padding: 1%;
     }
 }
