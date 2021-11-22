@@ -36,7 +36,7 @@
 body{
     background-color: rgb(230, 247, 247);
 }
-#next,#previous,#first{
+#next,#previous,#first,#item1,#item2,#item3,#item4,#item5{
     background-color: white;
 }
 
