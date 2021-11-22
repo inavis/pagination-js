@@ -42,22 +42,24 @@
         word-break: break-all;
     }
     .container{
-        margin-left: 15%;
+        margin-left: 12%;
         margin-top: 5%;
         padding: 1%;
+        text-align: center;
     }
 }
 @media (min-width:501px) and (max-width:1000px){
     .data{
-        margin-left: 18%;
+        margin-left: 19%;
         color: black;
         margin-right: 18%;
         word-break: break-all;
     }
     .container{
-        margin-left: 23%;
+        margin-left: 20%;
         margin-top: 5%;
         padding: 1%;
+        text-align: center;
     }
 }
 @media (min-width:1001px){
@@ -71,5 +73,6 @@
         margin-left: 34%;
         margin-top: 5%;
         padding: 1%;
+        text-align: center;
     }
 }
